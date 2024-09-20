@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "6c3386a5-8123-48fb-bd6d-047e9af6e0f3",
+		"name": "Evaluación: JAVA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "38470619"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9095/gestion-usuarios-api/api/v1/usuarios/crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Abel Contreras\",\r\n  \"email\": \"abel@gmail.com\",\r\n  \"password\": \"C@ntrer0s\",\r\n  \"phones\": [\r\n    {\r\n      \"number\": \"1234567\",\r\n      \"citycode\": \"1\",\r\n      \"contrycode\": \"57\"\r\n    }\r\n    \r\n  ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:9095/gestion-usuarios-api/api/v1/usuarios/crear"
+			},
+			"response": []
+		}
+	]
+}
