@@ -73,6 +73,10 @@ Parámetros de salida
 
 ![postman](postman.png "postman")
 
+### Importar el archivo del postman realizar pruebas unitarias.
+
+Evaluación- JAVA.postman_collection.json
+
 ### Base de datos
 
 ![bd](bd.png "bd")
@@ -81,3 +85,6 @@ Parámetros de salida
 ### Diagrama de la API.
 
 ![diagrama](diagrama.png "diagrama")
+
+
+
