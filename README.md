@@ -71,7 +71,7 @@ Parámetros de salida
 
 ### Test con postmant
 
-![postman](postman.png "postman")
+![postmant](postmant.png "postmant")
 
 
 ### Diagrama de la API.
