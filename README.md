@@ -69,9 +69,13 @@ Parámetros de salida
 }
 ```
 
-### Test con postmant
+### Test con postman
 
-![postmant](postmant.png "postmant")
+![postman](postman.png "postman")
+
+### Base de datos
+
+![bd](bd.png "bd")
 
 
 ### Diagrama de la API.
