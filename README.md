@@ -73,7 +73,7 @@ Parámetros de salida
 
 ![postman](postman.png "postman")
 
-### Importar el archivo del postman realizar pruebas unitarias.
+### Importar el archivo de postman realizar pruebas unitarias.
 
 Evaluación- JAVA.postman_collection.json
 
