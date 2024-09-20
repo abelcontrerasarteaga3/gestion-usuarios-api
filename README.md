@@ -1,22 +1,22 @@
-#API RESTful de creación de usuarios
+# API RESTful de creación de usuarios
 
 ## Descripción
 Es un endpoint que recibe un usuario con los campos "nombre", "correo", "contraseña",
 más un listado de objetos "teléfono".
 
-##Usar la Api:
+## Usar la Api:
 http://localhost:9095/gestion-usuarios-api/api/v1/usuarios/crear
 
-###Documentación de la API
+### Documentación de la API
 http://localhost:9095/gestion-usuarios-api/swagger-ui/index.html
 
 ![swagger](swagger.png "swagger")
 
 
-###method:
+### method:
 POST
 
-###requestBody
+### requestBody
 Parámetros de entrada
 
 ```json
@@ -35,7 +35,7 @@ Parámetros de entrada
 }
 ```
 
-###Response 
+### Response 
 Parámetros de salida 
 
 ```json
@@ -49,19 +49,19 @@ Parámetros de salida
 }
 ```
 
-###Validando correo existente
+### Validando correo existente
 ```json
 {
     "mensaje": "El correo ya está registrado"
 }
 ```
-###Validando formato de correo 
+### Validando formato de correo 
 ```json
 {
     "mensaje": "El formato del correo electrónico no es válido."
 }
 ```
-###Validando formato de contraseña
+### Validando formato de contraseña
 
 ```json
 {
