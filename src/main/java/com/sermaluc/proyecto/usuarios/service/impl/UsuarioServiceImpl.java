@@ -20,8 +20,8 @@ public class UsuarioServiceImpl implements UsuarioService {
 	@Autowired
 	private UsuarioRepository usuarioRepository;
 
-	@Value("${clave.regex}")
-	private String claveRegex;
+	@Value("${password.regex}")
+	private String passwordRegex;
 
 	@Value("${correo.regex}")
 	private String correoRegex;
@@ -32,7 +32,7 @@ public class UsuarioServiceImpl implements UsuarioService {
 			throw new EmailAlreadyRegisteredException("El correo ya está registrado");
 		}
 
-		if (!usuario.getPassword().matches(claveRegex)) { // Reemplaza "claveRegex" con tu regex real
+		if (!usuario.getPassword().matches(passwordRegex)) { // Reemplaza "claveRegex" con tu regex real
 			throw new InvalidPasswordFormatException("El formato de la password no es válido.");
 		}
 
