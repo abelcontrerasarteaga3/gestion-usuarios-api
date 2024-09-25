@@ -9,7 +9,7 @@
 		<version>3.3.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.miempresa.proyecto</groupId>
+	<groupId>com.sermaluc.proyecto</groupId>
 	<artifactId>gestion-usuarios-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
@@ -21,7 +21,6 @@
 		<javax.activation.version>1.2.0</javax.activation.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 	</properties>
 	<dependencies>
 		<dependency>

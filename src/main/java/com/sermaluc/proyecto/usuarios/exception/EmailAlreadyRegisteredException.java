@@ -1,4 +1,4 @@
-package com.miempresa.proyecto.usuarios.exception;
+package com.sermaluc.proyecto.usuarios.exception;
 
 public class EmailAlreadyRegisteredException extends RuntimeException {
     public EmailAlreadyRegisteredException(String message) {

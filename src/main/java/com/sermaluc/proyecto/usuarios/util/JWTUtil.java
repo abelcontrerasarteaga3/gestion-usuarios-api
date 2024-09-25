@@ -1,4 +1,4 @@
-package com.miempresa.proyecto.usuarios.util;
+package com.sermaluc.proyecto.usuarios.util;
 
 
 import org.springframework.stereotype.Component;

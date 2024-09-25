@@ -1,4 +1,4 @@
-package com.miempresa.proyecto.usuarios.controller;
+package com.sermaluc.proyecto.usuarios.controller;
 
 import java.util.Collections;
 
@@ -7,12 +7,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.miempresa.proyecto.usuarios.exception.EmailAlreadyRegisteredException;
-import com.miempresa.proyecto.usuarios.exception.InvalidEmailFormatException;
-import com.miempresa.proyecto.usuarios.exception.InvalidPasswordFormatException;
-import com.miempresa.proyecto.usuarios.model.Usuario;
-import com.miempresa.proyecto.usuarios.model.UsuarioResponse;
-import com.miempresa.proyecto.usuarios.service.UsuarioService;
+import com.sermaluc.proyecto.usuarios.exception.EmailAlreadyRegisteredException;
+import com.sermaluc.proyecto.usuarios.exception.InvalidEmailFormatException;
+import com.sermaluc.proyecto.usuarios.exception.InvalidPasswordFormatException;
+import com.sermaluc.proyecto.usuarios.model.Usuario;
+import com.sermaluc.proyecto.usuarios.model.UsuarioResponse;
+import com.sermaluc.proyecto.usuarios.service.UsuarioService;
 
 @RestController
 @RequestMapping("/api/v1/usuarios")

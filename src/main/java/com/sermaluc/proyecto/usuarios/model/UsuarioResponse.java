@@ -1,4 +1,4 @@
-package com.miempresa.proyecto.usuarios.model;
+package com.sermaluc.proyecto.usuarios.model;
 
 import java.util.Date;
 

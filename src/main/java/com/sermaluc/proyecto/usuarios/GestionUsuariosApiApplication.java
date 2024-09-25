@@ -1,4 +1,4 @@
-package com.miempresa.proyecto.usuarios;
+package com.sermaluc.proyecto.usuarios;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

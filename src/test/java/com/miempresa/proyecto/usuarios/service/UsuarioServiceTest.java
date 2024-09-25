@@ -13,9 +13,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
-import com.miempresa.proyecto.usuarios.model.Usuario;
-import com.miempresa.proyecto.usuarios.model.UsuarioResponse;
-import com.miempresa.proyecto.usuarios.repository.UsuarioRepository;
+import com.sermaluc.proyecto.usuarios.model.Usuario;
+import com.sermaluc.proyecto.usuarios.model.UsuarioResponse;
+import com.sermaluc.proyecto.usuarios.repository.UsuarioRepository;
+import com.sermaluc.proyecto.usuarios.service.UsuarioService;
 
 @SpringBootTest
 class UsuarioServiceTest {

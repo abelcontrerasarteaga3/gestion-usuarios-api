@@ -12,9 +12,10 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.web.servlet.MockMvc;
 
-import com.miempresa.proyecto.usuarios.model.Usuario;
-import com.miempresa.proyecto.usuarios.model.UsuarioResponse;
-import com.miempresa.proyecto.usuarios.service.UsuarioService;
+import com.sermaluc.proyecto.usuarios.controller.UsuarioController;
+import com.sermaluc.proyecto.usuarios.model.Usuario;
+import com.sermaluc.proyecto.usuarios.model.UsuarioResponse;
+import com.sermaluc.proyecto.usuarios.service.UsuarioService;
 
 import org.springframework.http.MediaType;
 

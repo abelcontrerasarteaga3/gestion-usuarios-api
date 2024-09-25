@@ -1,8 +1,6 @@
-package com.miempresa.proyecto.usuarios.model;
+package com.sermaluc.proyecto.usuarios.model;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.PrePersist;
@@ -13,11 +11,8 @@ import jakarta.validation.constraints.Pattern;
 
 import java.util.Date;
 import java.util.List;
-import java.util.UUID;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
-import com.miempresa.proyecto.usuarios.util.JWTUtil;
+import com.sermaluc.proyecto.usuarios.util.JWTUtil;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -34,7 +29,7 @@ public class Usuario {
 	
 	@Column(name = "email", columnDefinition = "TEXT")
 	@Email(message = "El formato del correo electrónico no es válido.")
-	@Pattern(regexp = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$", message = "El formato del correo electrónico debe ser correcto (ejemplo@dominio.cl).")
+	@Pattern(regexp = "${correo.regex}", message = "El formato del correo electrónico debe ser correcto (ejemplo@dominio.cl).")
 	private String email;
 	
 	@Column(name = "password", length = 255)

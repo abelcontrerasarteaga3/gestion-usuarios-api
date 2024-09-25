@@ -1,4 +1,4 @@
-package com.miempresa.proyecto.usuarios.service.impl;
+package com.sermaluc.proyecto.usuarios.service.impl;
 
 import java.util.UUID;
 
@@ -6,14 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import com.miempresa.proyecto.usuarios.exception.EmailAlreadyRegisteredException;
-import com.miempresa.proyecto.usuarios.exception.InvalidEmailFormatException;
-import com.miempresa.proyecto.usuarios.exception.InvalidPasswordFormatException;
-import com.miempresa.proyecto.usuarios.model.Usuario;
-import com.miempresa.proyecto.usuarios.model.UsuarioResponse;
-import com.miempresa.proyecto.usuarios.repository.UsuarioRepository;
-import com.miempresa.proyecto.usuarios.service.UsuarioService;
-import com.miempresa.proyecto.usuarios.util.JWTUtil;
+import com.sermaluc.proyecto.usuarios.exception.EmailAlreadyRegisteredException;
+import com.sermaluc.proyecto.usuarios.exception.InvalidEmailFormatException;
+import com.sermaluc.proyecto.usuarios.exception.InvalidPasswordFormatException;
+import com.sermaluc.proyecto.usuarios.model.Usuario;
+import com.sermaluc.proyecto.usuarios.model.UsuarioResponse;
+import com.sermaluc.proyecto.usuarios.repository.UsuarioRepository;
+import com.sermaluc.proyecto.usuarios.service.UsuarioService;
+import com.sermaluc.proyecto.usuarios.util.JWTUtil;
 
 @Service
 public class UsuarioServiceImpl implements UsuarioService {

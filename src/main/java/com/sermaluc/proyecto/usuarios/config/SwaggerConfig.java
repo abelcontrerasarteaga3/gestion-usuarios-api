@@ -1,4 +1,4 @@
-package com.miempresa.proyecto.usuarios.config;
+package com.sermaluc.proyecto.usuarios.config;
 
 import java.util.Collections;
 
@@ -18,7 +18,7 @@ public class SwaggerConfig {
 	public Docket apiDocket() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("com.miempresa.proyecto.usuarios.controller"))
+				.apis(RequestHandlerSelectors.basePackage("com.sermaluc.proyecto.usuarios.controller"))
 				.paths(PathSelectors.any())
 				.build()
 				.apiInfo(getApiInfo())
@@ -28,8 +28,7 @@ public class SwaggerConfig {
 
 	private ApiInfo getApiInfo() {
 		return new ApiInfo("Gestión de Usuarios API", "API para la gestión de usuarios", "1.0",
-				"http://www.evaluacion.com/",
-				new Contact("Abel Contreras Arteaga", "https://www.evaluacion.com", "abelcontrerasarteaga3@gmail.com"),
+				"",new Contact("Abel Contreras Arteaga", "", "abelcontrerasarteaga3@gmail.com"),
 				"LICENSE", "LICENSE URL", Collections.emptyList());
 	}
 }
