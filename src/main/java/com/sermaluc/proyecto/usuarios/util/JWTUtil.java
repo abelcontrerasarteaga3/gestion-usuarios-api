@@ -6,7 +6,7 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
 import java.util.Date;
-
+ 
 @Component
 public class JWTUtil {
 	private final String SECRET_KEY = "33n6yKeSQW6Lkc0abIVuJLvuvw8TZEDA";
