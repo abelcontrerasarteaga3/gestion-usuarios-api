@@ -8,7 +8,7 @@ import jakarta.persistence.PreUpdate;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Pattern;
-
+ 
 import java.util.Date;
 import java.util.List;
 

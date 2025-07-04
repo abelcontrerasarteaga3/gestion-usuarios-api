@@ -1,7 +1,7 @@
 package com.sermaluc.proyecto.usuarios.exception;
 
 
-
+ 
 import java.util.HashMap;
 import java.util.Map;
 

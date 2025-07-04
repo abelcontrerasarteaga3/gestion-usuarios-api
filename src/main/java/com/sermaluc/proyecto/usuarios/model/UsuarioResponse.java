@@ -3,7 +3,7 @@ package com.sermaluc.proyecto.usuarios.model;
 import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-
+ 
 @JsonInclude(JsonInclude.Include.NON_NULL) 
 public class UsuarioResponse {
 

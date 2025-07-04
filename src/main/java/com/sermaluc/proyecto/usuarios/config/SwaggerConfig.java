@@ -1,7 +1,7 @@
 package com.sermaluc.proyecto.usuarios.config;
 
 import java.util.Collections;
-
+ 
 import org.springframework.context.annotation.Bean;
 
 import springfox.documentation.builders.PathSelectors;
