@@ -1,6 +1,6 @@
 # API RESTful de creación de usuarios
 
-## Descripción
+## Descripción 
 Es un endpoint que recibe un usuario con los campos "nombre", "correo", "contraseña",
 más un listado de objetos "teléfono".
 
